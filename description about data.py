@@ -1,0 +1,15 @@
+import pandas as pd
+#read the excel data
+df=pd.read_csv(r"D:\lpu things\healthcare_treatments__csv.csv")
+print("print the data")
+print(df)
+print()
+print()
+print("Give the infotmation about the data")
+print(df.info())
+print()
+print()
+print("Description about the data")
+print()
+print()
+print(df.describe())
